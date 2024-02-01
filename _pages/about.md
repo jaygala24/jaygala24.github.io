@@ -33,12 +33,12 @@ I co-founded the research division of Unicode (a.k.a. [Unicode Research](https:/
 
 ##### 2024
 
-- **January** - Excited to announce the release of Airavata, an instruction-tuned Hindi LLM. Check out the [Blog](https://ai4bharat.github.io/airavata) and [Code](https://github.com/AI4Bharat/IndicInstruct)!
+- **January** - Excited to announce the release of Airavata, an instruction-tuned Hindi LLM. Check out the [Technical Report](https://arxiv.org/abs/2401.15006) and [Code](https://github.com/AI4Bharat/IndicInstruct)!
 
 ##### 2023
 
 - **December** - Attending the [Conference on Empirical Methods in Natural Language Processing (EMNLP 2023)](https://2023.emnlp.org/).
-- **November** - IndicTrans2 submission has been accepted at TMLR.
+- **November** - IndicTrans2 submission has been accepted at TMLR. Check out the [Camera Ready Version](https://openreview.net/forum?id=vfT4YuzAYA).
 - **November** - Presenting Tutorial on [Developing SOTA MNMT Systems for Related Languages](http://www.afnlp.org/conferences/ijcnlp2023/wp/program/accepted-tutorials/) at Tutorial at AACL-IJCNLP 2023.
 - **May** - Excited to share the release of IndicTrans2, first open-source model to support all 22 Scheduled Indian languages. Check out the [Preprint](https://arxiv.org/abs/2305.16307) and [Code](https://github.com/AI4Bharat/IndicTrans2)!
 - **January** - A Federated Approach for Hate Speech Detection has been accepted to EACL 2023. Check out the [Preprint](https://arxiv.org/abs/2302.09243) and [Code](https://github.com/jaygala24/fed-hate-speech)!

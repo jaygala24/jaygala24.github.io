@@ -451,9 +451,9 @@ The denominator term in the co-occurrence probability accounts for global statis
     Co-occurrence Probabilities Example (<a href="http://nlp.stanford.edu/pubs/glove.pdf">image source</a>)
 </div>
 
-The matrix shows the co-occurrence probabilities for the words from the concept of the thermodynamic phases of water (i.e., $ice$ and $steam$). The first two rows represent the co-occurrence probabilities for the words $ice$ and $steam$, whereas the last row represents their ratios. We can observe the following:
-- ratio is not neural for closely related words such as $solid$ and $ice$ or $gas$ and $steam$
-- ratio is neutral for words relevant to $ice$ and $steam$ both or not completely irrelevant to both
+The matrix shows the co-occurrence probabilities for the words from the concept of the thermodynamic phases of water (i.e., "ice" and "steam"). The first two rows represent the co-occurrence probabilities for the words $ice$ and "steam", whereas the last row represents their ratios. We can observe the following:
+- ratio is not neural for closely related words such as "solid" and "ice" or "gas" and "steam"
+- ratio is neutral for words relevant to "ice" and "steam" both or not completely irrelevant to both
 
 The ratio of co-occurrence proababilities is a good starting point for learning word embeddings. Let's start with the most general function $F$ parametrized by 3 word vectors ($w_i$, $w_j$ and $\tilde{w_k}$) given below.
  

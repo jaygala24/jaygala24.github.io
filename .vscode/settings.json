@@ -1,0 +1,28 @@
+{
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 1.5,
+  "editor.fontFamily": "Dank Mono, Operator Mono Lig Book, SF Mono, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.letterSpacing": 1.2,
+  "editor.lineHeight": 20,
+  "editor.autoIndent": "brackets",
+  "editor.autoClosingBrackets": "always",
+  "editor.linkedEditing": true,
+  "explorer.openEditors.visible": 1,
+  "prettier.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "python.analysis.autoImportCompletions": true,
+  "vsintellicode.features.python.deepLearning": "enabled",
+  "python.analysis.completeFunctionParens": true,
+  "remote.SSH.connectTimeout": 60,
+  "editor.formatOnSave": false,
+  "black-formatter.args": ["--line-length=120"]
+}

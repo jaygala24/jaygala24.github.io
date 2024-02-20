@@ -13,6 +13,36 @@
   code     = {https://github.com/AI4Bharat/IndicInstruct}
 }
 
+@article{chimoto2024critical,
+  abbr     = {arXiv},
+  title    = {Critical Learning Periods: Leveraging Early Training Dynamics for Efficient Data Pruning in Machine Translation},
+  author   = {Everlyn Chimoto and Jay Gala and Orevaoghene Ahia and Julia Kreutzer and Bruce Bassett and Sara Hooker},
+  abstract = {Neural Machine Translation models are extremely data and compute-hungry. However, the reality is that not all data is equally significant in driving model generalization. Effectively recognizing and isolating data points crucial to generalization and only training on this subset has the benefit of drastically reducing the compute budget. In this paper, we propose a new data pruning technique Checkpoints Across Time(CAT) that leverages model training signal to identify the most relevant data points for model performance. We benchmark CAT against different data pruning techniques, ranging in complexity from perplexity scores computed by pre-trained models to techniques like COMET-QE (Rei et al., 2020), LASER (Heffernan et al., 2022) and LaBSE (Feng et al., 2022). We find that our CAT techniques outperform far more complex methods with Indo-European languages. Using our best CAT-based method on English-German and English-French translation tasks, we are able to prune up to 50% of the training data while retaining ~99% of the model's performance when trained on the full data.  We inspect the data points that our method selects and find that CAT tends to prefer longer sentences and favours sentences with more unique and rare words.},
+  year     = {2024},
+  journal  = {arXiv preprint (coming soon)},
+  html     = {https://drive.google.com/file/d/1s4e3hkbVIQ1AXSrKBuWluZS4DtBpGGjQ/view}
+}
+
+@article{chitale2024empirical,
+  abbr     = {arXiv},
+  title    = {An Empirical Study of In-context Learning in LLMs for Machine Translation},
+  author   = {Pranjal A. Chitale and Jay Gala and Raj Dabre},
+  abstract = {Recent interest has surged in employing Large Language Models (LLMs) for machine translation (MT) via in-context learning (ICL) (Vilar et al., 2023). Most prior studies primarily focus on optimizing translation quality, with limited attention to understanding the specific aspects of ICL that influence the said quality. To this end, we perform the first of its kind, exhaustive study of in-context learning for machine translation. We first establish that ICL is primarily example-driven and not instruction-driven. Following this, we conduct an extensive exploration of various aspects of the examples to understand their influence on downstream performance. Our analysis includes factors such as quality and quantity of demonstrations, spatial proximity, and source versus target originality. Further, we also investigate challenging scenarios involving indirectness and misalignment of examples to understand the limits of ICL. While we establish the significance of the quality of the target distribution over the source distribution of demonstrations, we further observe that perturbations sometimes act as regularizers, resulting in performance improvements. Surprisingly, ICL does not necessitate examples from the same task, and a related task with the same target distribution proves sufficient. We hope that our study acts as a guiding resource for considerations in utilizing ICL for MT.},
+  year     = {2024},
+  journal  = {arXiv preprint},
+  arxiv    = {2401.12097}
+}
+
+@article{husain2024romansetu,
+  abbr     = {arXiv},
+  title    = {RomanSetu: Efficiently unlocking multilingual capabilities of Large Language Models via Romanization},
+  author   = {Jaavid Aktar Husain and Raj Dabre and Aswanth Kumar and Jay Gala and Thanmay Jayakumar and Ratish Puduppully and Anoop Kunchukuttan},
+  abstract = {This study addresses the challenge of extending Large Language Models (LLMs) to non-English languages, specifically those using non-Roman scripts. We propose an approach that utilizes the romanized form of text as an interface for LLMs, hypothesizing that its frequent informal use and shared tokens with English enhance cross-lingual alignment. Our approach involves the continual pretraining of an English LLM like Llama 2 on romanized text of non-English, non-Roman script languages, followed by instruction tuning on romanized data. The results indicate that romanized text not only reduces token fertility by 2x-4x but also matches if not outperforms native script representation across various NLU, NLG, and MT tasks. Moreover, the embeddings computed on romanized text exhibit closer alignment with their English translations than those from the native script. Our approach presents a promising direction for leveraging the power of English LLMs in languages traditionally underrepresented in NLP research.},
+  year     = {2024},
+  journal  = {arXiv preprint},
+  arxiv    = {2401.14280}
+}
+
 @inproceedings{dabre2023wmt,
   abbr     = {WMT},
   title    = {NICT-AI4B's Submission to the Indic MT Shared Task in WMT 2023},
@@ -24,7 +54,7 @@
   html     = {https://aclanthology.org/2023.wmt-1.88}
 }
 
-@inproceedings{gala2023indictrans,
+@article{gala2023indictrans,
   abbr     = {TMLR},
   title    = {IndicTrans2: Towards High-Quality and Accessible Machine Translation Models for all 22 Scheduled Indian Languages},
   author   = {Jay Gala* and Pranjal A. Chitale* and Raghavan AK and Varun Gumma and Sumanth Doddapaneni and Aswanth Kumar and Janki Nawale and Anupama Sujatha and Ratish Puduppully and Vivek Raghavan and Pratyush Kumar and Mitesh M. Khapra and Raj Dabre and Anoop Kunchukuttan},
@@ -33,7 +63,8 @@
   journal  = {Transactions on Machine Learning Research},
   arxiv    = {2305.16307},
   code     = {https://github.com/ai4bharat/indictrans2},
-  html     = {https://openreview.net/forum?id=vfT4YuzAYA}
+  html     = {https://openreview.net/forum?id=vfT4YuzAYA},
+  issn     = {2835-8865}
 }
 
 @inproceedings{fedspeech2023,
@@ -41,7 +72,7 @@
   title     = {A Federated Approach for Hate Speech Detection},
   author    = {Gala*, Jay and Gandhi*, Deep and Mehta*, Jash and Talat, Zeerak},
   abstract  = {Hate speech detection has been the subject of high research attention, due to the scale of content created on social media. In spite of the attention and the sensitive nature of the task, privacy preservation in hate speech detection has remained under-studied. The majority of research has focused on centralised machine learning infrastructures which risk leaking data. In this paper, we show that using federated machine learning can help address privacy the concerns that are inehrent to hate speech detection while obtaining up to 6.81% improvement in terms of F1-score.},
-  booktitle = {Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
+  booktitle = {Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics},
   year      = {2023},
   publisher = {Association for Computational Linguistics},
   arxiv     = {2302.09243},
@@ -55,7 +86,7 @@
   title     = {Expanding Access to ML Research through Student-led Collaboratives},
   author    = {Gandhi, Deep and Jain, Raghav and Gala, Jay and Lalwani, Jhagrut and Mehta, Swapneel S},
   abstract  = {We present a model of a student-led community of researchers to highlight the impact of pursuing collaborative machine learning research on the group’s members individually as well as towards achieving shared goals. We provide concrete examples of the guiding principles that led to the evolution of the collaborative from a reading group into a research group and eventually launching a non-profit software product to help non-technical stakeholders leverage artificial intelligence (AI), improving access to advanced technologies, and promoting open science. Our goal is to lay out a template to launch similar small-scale collaborative organisations at different institutes around the world.},
-  booktitle = {Workshop on Broadening Research Collaborations (NeurIPS) 2022},
+  booktitle = {Workshop on Broadening Research Collaborations (NeurIPS)},
   year      = {2022},
   html       = {https://openreview.net/forum?id=YBk2jG7MEaX}
 }
@@ -86,7 +117,7 @@
   abbr      = {Elsevier},
   title     = {Combating COVID-19 using object detection techniques for next-generation autonomous systems},
   author    = {Shenai*, Hrishikesh and Gala*, Jay and Kekre*, Kaustubh and Chitale*, Pranjal and Karani, Ruhina},
-  booktitle = {Cyber-Physical Systems: AI and COVID-19 (chapter 4)},
+  booktitle = {Cyber-Physical Systems: AI and COVID-19 (Chapter 4)},
   pages     = {55--73},
   year      = {2022},
   publisher = {Elsevier},

@@ -1,5 +1,14 @@
 ---
 ---
+@article{misra2024lowshot,
+  abbr     = {arXiv},
+  title    = {On the low-shot transferability of [V]-Mamba},
+  author   = {Diganta Misra* and Jay Gala* and Antonio Orvieto},
+  abstract = {The strength of modern large-scale neural networks lies in their ability to efficiently adapt to new tasks with few examples. Although extensive research has investigated the transferability of Vision Transformers (ViTs) to various downstream tasks under diverse constraints, this study shifts focus to explore the transfer learning potential of [V]-Mamba. We compare its performance with ViTs across different few-shot data budgets and efficient transfer methods. Our analysis yields three key insights into [V]-Mamba's few-shot transfer performance: (a) [V]-Mamba demonstrates superior or equivalent few-shot learning capabilities compared to ViTs when utilizing linear probing (LP) for transfer, (b) Conversely, [V]-Mamba exhibits weaker or similar few-shot learning performance compared to ViTs when employing visual prompting (VP) as the transfer method, and (c) We observe a weak positive correlation between the performance gap in transfer via LP and VP and the scale of the [V]-Mamba model. This preliminary analysis lays the foundation for more comprehensive studies aimed at furthering our understanding of the capabilities of [V]-Mamba variants and their distinctions from ViTs.},
+  year     = {2024},
+  journal  = {arXiv preprint},
+  arxiv    = {2403.10696}
+}
 
 @article{gala2024airavata,
   abbr     = {arXiv},
@@ -26,7 +35,7 @@
 @article{chitale2024empirical,
   abbr     = {arXiv},
   title    = {An Empirical Study of In-context Learning in LLMs for Machine Translation},
-  author   = {Pranjal A. Chitale and Jay Gala and Raj Dabre},
+  author   = {Pranjal A. Chitale* and Jay Gala* and Raj Dabre},
   abstract = {Recent interest has surged in employing Large Language Models (LLMs) for machine translation (MT) via in-context learning (ICL) (Vilar et al., 2023). Most prior studies primarily focus on optimizing translation quality, with limited attention to understanding the specific aspects of ICL that influence the said quality. To this end, we perform the first of its kind, exhaustive study of in-context learning for machine translation. We first establish that ICL is primarily example-driven and not instruction-driven. Following this, we conduct an extensive exploration of various aspects of the examples to understand their influence on downstream performance. Our analysis includes factors such as quality and quantity of demonstrations, spatial proximity, and source versus target originality. Further, we also investigate challenging scenarios involving indirectness and misalignment of examples to understand the limits of ICL. While we establish the significance of the quality of the target distribution over the source distribution of demonstrations, we further observe that perturbations sometimes act as regularizers, resulting in performance improvements. Surprisingly, ICL does not necessitate examples from the same task, and a related task with the same target distribution proves sufficient. We hope that our study acts as a guiding resource for considerations in utilizing ICL for MT.},
   year     = {2024},
   journal  = {arXiv preprint},

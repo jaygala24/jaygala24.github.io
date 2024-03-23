@@ -29,11 +29,12 @@ I co-founded the research division of Unicode (a.k.a. [Unicode Research](https:/
 
 <hr>
 
-<h2 style="color:#003BDE; margin-bottom:0.5em">News</h2>
+<h2 style="color:#003BDE; margin-bottom:0.5em">News and Timeline</h2>
 
 ##### **2024**
 
-- **January** - Excited to announce the release of Airavata, an instruction-tuned Hindi LLM. Check out the [Technical Report](https://arxiv.org/abs/2401.15006) and [Code](https://github.com/AI4Bharat/IndicInstruct).
+- **March** - Our new preprint [On the low-shot transferability of [V]-Mamba](https://arxiv.org/abs/2403.10696) is now out on arXiv.
+- **January** - Excited to announce the release of Airavata, an instruction-tuned Hindi LLM. Check out the [Technical Report](https://arxiv.org/abs/2401.15006) and [Code](https://github.com/AI4Bharat/IndicInstruct). Also, our preprint on [ICL abilities in LLMs for MT](https://arxiv.org/abs/2401.12097) is available on arXiv.
 
 ##### **2023**
 

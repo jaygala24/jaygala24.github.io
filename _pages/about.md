@@ -33,6 +33,7 @@ I co-founded the research division of Unicode (a.k.a. [Unicode Research](https:/
 
 ##### **2024**
 
+- **May** - Our works [RomanSETU](https://arxiv.org/abs/2401.14280), [ICL study for MT](https://arxiv.org/abs/2401.12097) and [Data Pruning for MT](https://arxiv.org/abs/2405.19462) accepted at ACL 2024.
 - **May** - Our work on **Leverage Class-Specific Accuracy to Guide Data Generation for Improving Image Classification** is accepted at ICML 2024. Stay tuned for the camera-ready version!
 - **May** - Officially starting as a Research Associate at MBZUAI.
 - **March** - Our new preprint [On the low-shot transferability of [V]-Mamba](https://arxiv.org/abs/2403.10696) is now out on arXiv.

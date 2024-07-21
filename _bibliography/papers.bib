@@ -1,13 +1,51 @@
 ---
 ---
-@article{misra2024lowshot,
-  abbr     = {arXiv},
-  title    = {On the low-shot transferability of [V]-Mamba},
-  author   = {Diganta Misra* and Jay Gala* and Antonio Orvieto},
-  abstract = {The strength of modern large-scale neural networks lies in their ability to efficiently adapt to new tasks with few examples. Although extensive research has investigated the transferability of Vision Transformers (ViTs) to various downstream tasks under diverse constraints, this study shifts focus to explore the transfer learning potential of [V]-Mamba. We compare its performance with ViTs across different few-shot data budgets and efficient transfer methods. Our analysis yields three key insights into [V]-Mamba's few-shot transfer performance: (a) [V]-Mamba demonstrates superior or equivalent few-shot learning capabilities compared to ViTs when utilizing linear probing (LP) for transfer, (b) Conversely, [V]-Mamba exhibits weaker or similar few-shot learning performance compared to ViTs when employing visual prompting (VP) as the transfer method, and (c) We observe a weak positive correlation between the performance gap in transfer via LP and VP and the scale of the [V]-Mamba model. This preliminary analysis lays the foundation for more comprehensive studies aimed at furthering our understanding of the capabilities of [V]-Mamba variants and their distinctions from ViTs.},
+
+@inproceedings{gala2024leverage,
+  abbr     = {ICML},
+  title    = {Leverage Class-Specific Accuracy to Guide Data Generation for Improving Image Classification},
+  author   = {Jay Gala and Pengtao Xie},
+  abstract = {In many image classification applications, the number of labeled training images is limited, which leads to model overfitting. To mitigate the lack of training data, deep generative models have been leveraged to generate synthetic training data. However, existing methods generate data for individual classes based on how much training data they have without considering their actual data needs. To address this limitation, we propose needs-aware image generation, which automatically identifies the different data needs of individual classes based on their classification performance and divides a limited data generation budget into these classes according to their needs. We propose a multi-level optimization based framework which performs four learning stages in an end-to-end manner. Experiments on both imbalanced and balanced classification datasets demonstrate the effectiveness of our proposed method.},
+  booktitle  = {Forty-first International Conference on Machine Learning},
   year     = {2024},
-  journal  = {arXiv preprint},
-  arxiv    = {2403.10696}
+  html     = {https://openreview.net/forum?id=KHymcy2xxF},
+  slides   = {https://docs.google.com/presentation/d/1KkI9tkO7HobXQ-HO9obSPYBOXyiKd5DaVvvCsX-NAFU/edit?usp=sharing},
+  talk     = {https://www.youtube.com/watch?v=ihEfSi1FGgU}
+}
+
+@inproceedings{chimoto2024critical,
+  abbr     = {ACL Findings},
+  title    = {Critical Learning Periods: Leveraging Early Training Dynamics for Efficient Data Pruning in Machine Translation},
+  author   = {Everlyn Chimoto and Jay Gala and Orevaoghene Ahia and Julia Kreutzer and Bruce Bassett and Sara Hooker},
+  abstract = {Neural Machine Translation models are extremely data and compute-hungry. However, not all data points contribute equally to model training and generalization. Data pruning to remove the low-value data points has the benefit of drastically reducing the compute budget without significant drop in model performance. In this paper, we propose a new data pruning technique: Checkpoints Across Time (CAT), that leverages early model training dynamics to identify the most relevant data points for model performance. We benchmark CAT against several data pruning techniques including COMET-QE, LASER and LaBSE. We find that CAT outperforms the benchmarks on Indo-European languages on multiple test sets. When applied to English-German, English-French and English-Swahili translation tasks, CAT achieves comparable performance to using the full dataset, while pruning up to 50% of training data. We inspect the data points that CAT selects and find that it tends to favour longer sentences and sentences with unique or rare words.},
+  year     = {2024},
+  booktitle  = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+  publisher = {Association for Computational Linguistics},
+  arxiv    = {2405.19462}
+}
+
+@inproceedings{chitale2024empirical,
+  abbr     = {ACL Findings},
+  title    = {An Empirical Study of In-context Learning in LLMs for Machine Translation},
+  author   = {Pranjal A. Chitale* and Jay Gala* and Raj Dabre},
+  abstract = {Recent interest has surged in employing Large Language Models (LLMs) for machine translation (MT) via in-context learning (ICL) (Vilar et al., 2023). Most prior studies primarily focus on optimizing translation quality, with limited attention to understanding the specific aspects of ICL that influence the said quality. To this end, we perform the first of its kind, an exhaustive study of in-context learning for machine translation. We first establish that ICL is primarily example-driven and not instruction-driven. Following this, we conduct an extensive exploration of various aspects of the examples to understand their influence on downstream performance. Our analysis includes factors such as quality and quantity of demonstrations, spatial proximity, and source versus target originality. Further, we also investigate challenging scenarios involving indirectness and misalignment of examples to understand the limits of ICL. While we establish the significance of the quality of the target distribution over the source distribution of demonstrations, we further observe that perturbations sometimes act as regularizers, resulting in performance improvements. Surprisingly, ICL does not necessitate examples from the same task, and a related task with the same target distribution proves sufficient. We hope that our study acts as a guiding resource for considerations in utilizing ICL for MT.},
+  year     = {2024},
+  booktitle  = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+  publisher = {Association for Computational Linguistics},
+  arxiv    = {2401.12097},
+  slides   = {https://docs.google.com/presentation/d/1ufJZ0qkC8mBUnBQm1w1T-7YgPPgYGK_KlaJCkbzcXd0/edit?usp=sharing},
+  code     = {https://github.com/PranjalChitale/in-context-mt-analysis}
+}
+
+@inproceedings{husain2024romansetu,
+  abbr     = {ACL},
+  title    = {RomanSetu: Efficiently unlocking multilingual capabilities of Large Language Models via Romanization},
+  author   = {Jaavid Aktar Husain and Raj Dabre and Aswanth Kumar and Jay Gala and Thanmay Jayakumar and Ratish Puduppully and Anoop Kunchukuttan},
+  abstract = {This study addresses the challenge of extending Large Language Models (LLMs) to non-English languages, specifically those using non-Roman scripts. We propose an approach that utilizes the romanized form of text as an interface for LLMs, hypothesizing that its frequent informal use and shared tokens with English enhance cross-lingual alignment. Our approach involves the continual pretraining of an English LLM like Llama 2 on romanized text of non-English, non-Roman script languages, followed by instruction tuning on romanized data. The results indicate that romanized text not only reduces token fertility by 2x-4x but also matches if not outperforms native script representation across various NLU, NLG, and MT tasks. Moreover, the embeddings computed on romanized text exhibit closer alignment with their English translations than those from the native script. Our approach presents a promising direction for leveraging the power of English LLMs in languages traditionally underrepresented in NLP research.},
+  year     = {2024},
+  booktitle  = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+  publisher = {Association for Computational Linguistics},
+  arxiv    = {2401.14280}
 }
 
 @article{gala2024airavata,
@@ -22,34 +60,14 @@
   code     = {https://github.com/AI4Bharat/IndicInstruct}
 }
 
-@article{chimoto2024critical,
+@article{misra2024lowshot,
   abbr     = {arXiv},
-  title    = {Critical Learning Periods: Leveraging Early Training Dynamics for Efficient Data Pruning in Machine Translation},
-  author   = {Everlyn Chimoto and Jay Gala and Orevaoghene Ahia and Julia Kreutzer and Bruce Bassett and Sara Hooker},
-  abstract = {Neural Machine Translation models are extremely data and compute-hungry. However, the reality is that not all data is equally significant in driving model generalization. Effectively recognizing and isolating data points crucial to generalization and only training on this subset has the benefit of drastically reducing the compute budget. In this paper, we propose a new data pruning technique Checkpoints Across Time(CAT) that leverages model training signal to identify the most relevant data points for model performance. We benchmark CAT against different data pruning techniques, ranging in complexity from perplexity scores computed by pre-trained models to techniques like COMET-QE (Rei et al., 2020), LASER (Heffernan et al., 2022) and LaBSE (Feng et al., 2022). We find that our CAT techniques outperform far more complex methods with Indo-European languages. Using our best CAT-based method on English-German and English-French translation tasks, we are able to prune up to 50% of the training data while retaining ~99% of the model's performance when trained on the full data.  We inspect the data points that our method selects and find that CAT tends to prefer longer sentences and favours sentences with more unique and rare words.},
+  title    = {On the low-shot transferability of [V]-Mamba},
+  author   = {Diganta Misra* and Jay Gala* and Antonio Orvieto},
+  abstract = {The strength of modern large-scale neural networks lies in their ability to efficiently adapt to new tasks with few examples. Although extensive research has investigated the transferability of Vision Transformers (ViTs) to various downstream tasks under diverse constraints, this study shifts focus to explore the transfer learning potential of [V]-Mamba. We compare its performance with ViTs across different few-shot data budgets and efficient transfer methods. Our analysis yields three key insights into [V]-Mamba's few-shot transfer performance: (a) [V]-Mamba demonstrates superior or equivalent few-shot learning capabilities compared to ViTs when utilizing linear probing (LP) for transfer, (b) Conversely, [V]-Mamba exhibits weaker or similar few-shot learning performance compared to ViTs when employing visual prompting (VP) as the transfer method, and (c) We observe a weak positive correlation between the performance gap in transfer via LP and VP and the scale of the [V]-Mamba model. This preliminary analysis lays the foundation for more comprehensive studies aimed at furthering our understanding of the capabilities of [V]-Mamba variants and their distinctions from ViTs.},
   year     = {2024},
   journal  = {arXiv preprint},
-  arxiv    = {2405.19462}
-}
-
-@article{chitale2024empirical,
-  abbr     = {arXiv},
-  title    = {An Empirical Study of In-context Learning in LLMs for Machine Translation},
-  author   = {Pranjal A. Chitale* and Jay Gala* and Raj Dabre},
-  abstract = {Recent interest has surged in employing Large Language Models (LLMs) for machine translation (MT) via in-context learning (ICL) (Vilar et al., 2023). Most prior studies primarily focus on optimizing translation quality, with limited attention to understanding the specific aspects of ICL that influence the said quality. To this end, we perform the first of its kind, exhaustive study of in-context learning for machine translation. We first establish that ICL is primarily example-driven and not instruction-driven. Following this, we conduct an extensive exploration of various aspects of the examples to understand their influence on downstream performance. Our analysis includes factors such as quality and quantity of demonstrations, spatial proximity, and source versus target originality. Further, we also investigate challenging scenarios involving indirectness and misalignment of examples to understand the limits of ICL. While we establish the significance of the quality of the target distribution over the source distribution of demonstrations, we further observe that perturbations sometimes act as regularizers, resulting in performance improvements. Surprisingly, ICL does not necessitate examples from the same task, and a related task with the same target distribution proves sufficient. We hope that our study acts as a guiding resource for considerations in utilizing ICL for MT.},
-  year     = {2024},
-  journal  = {arXiv preprint},
-  arxiv    = {2401.12097}
-}
-
-@article{husain2024romansetu,
-  abbr     = {arXiv},
-  title    = {RomanSetu: Efficiently unlocking multilingual capabilities of Large Language Models via Romanization},
-  author   = {Jaavid Aktar Husain and Raj Dabre and Aswanth Kumar and Jay Gala and Thanmay Jayakumar and Ratish Puduppully and Anoop Kunchukuttan},
-  abstract = {This study addresses the challenge of extending Large Language Models (LLMs) to non-English languages, specifically those using non-Roman scripts. We propose an approach that utilizes the romanized form of text as an interface for LLMs, hypothesizing that its frequent informal use and shared tokens with English enhance cross-lingual alignment. Our approach involves the continual pretraining of an English LLM like Llama 2 on romanized text of non-English, non-Roman script languages, followed by instruction tuning on romanized data. The results indicate that romanized text not only reduces token fertility by 2x-4x but also matches if not outperforms native script representation across various NLU, NLG, and MT tasks. Moreover, the embeddings computed on romanized text exhibit closer alignment with their English translations than those from the native script. Our approach presents a promising direction for leveraging the power of English LLMs in languages traditionally underrepresented in NLP research.},
-  year     = {2024},
-  journal  = {arXiv preprint},
-  arxiv    = {2401.14280}
+  arxiv    = {2403.10696}
 }
 
 @inproceedings{dabre2023wmt,
@@ -87,7 +105,7 @@
   arxiv     = {2302.09243},
   code      = {https://github.com/jaygala24/fed-hate-speech},
   slides    = {https://docs.google.com/presentation/d/1eiL5uLRt9-Bg9oKBWu9BzslksFFJKtkKXS8coI7__pM/edit?usp=sharing},
-  talk     = {https://drive.google.com/file/d/1kO_CJEvnr6SiyiLg9TQfO21FuFZYcR6g/view?usp=sharing}
+  talk      = {https://drive.google.com/file/d/1kO_CJEvnr6SiyiLg9TQfO21FuFZYcR6g/view?usp=sharing}
 }
 
 @inproceedings{gandhi2022expanding,

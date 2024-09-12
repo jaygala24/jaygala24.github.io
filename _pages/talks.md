@@ -7,6 +7,11 @@ nav: true
 nav_order: 2
 ---
 
+##### **2024**
+
+- An Empirical Study of In-context Learning in LLMs for Machine Translation  ([Slides](https://drive.google.com/file/d/1HCFpWcO6fUCwNnUfmtBXOSUCRaIaKrvx/view))
+  <br> **SNLP Reading Group @ Microsoft Research India**
+
 ##### **2023**
 
 - Developing SOTA MNMT Systems for Related Languages ([Slides](https://docs.google.com/presentation/d/1BW9N9Fi8X9QQYB_DmyjHm2w-0idKlfuydH3eswgpIqs/edit?usp=sharing))

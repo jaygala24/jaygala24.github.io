@@ -58,5 +58,5 @@ I co-founded the research division of Unicode (a.k.a. [Unicode Research](https:/
 
 ##### **2021**
 
-- **October** - Starting independent collaboration with [Zeerak Talat](Dr. Zeerak Talat).
+- **October** - Starting independent collaboration with [Zeerak Talat](https://zeerak.org/).
 - **June** - Officially starting as a research intern with [Pengtao Xie](https://sites.google.com/site/pengtaoxie2008) at UCSD.

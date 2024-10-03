@@ -34,8 +34,9 @@ I co-founded the research division of Unicode (a.k.a. [Unicode Research](https:/
 ##### **2024**
 
 - **August** - Gave a talk on in-context learning capabilities of LLMs for MT ([slides](https://drive.google.com/file/d/1HCFpWcO6fUCwNnUfmtBXOSUCRaIaKrvx/view)) at the SNLP Reading Group, Microsoft Research India.
+- **August** - Our work [RomanSETU](https://arxiv.org/abs/2401.14280) received 🏆 Senior Area Chair Award at ACL 2024! Congratulations to all the authors!
 - **July** - Will be attending [ACL 2024](https://2024.aclweb.org/) in Bangkok 🇹🇭.
-- **May** - Our works [RomanSETU](https://arxiv.org/abs/2401.14280), [ICL study for MT](https://arxiv.org/abs/2401.12097) and [Data Pruning for MT](https://arxiv.org/abs/2405.19462) accepted at ACL 2024.
+- **May** - Our works - [RomanSETU](https://arxiv.org/abs/2401.14280), [ICL study for MT](https://arxiv.org/abs/2401.12097) and [Data Pruning for MT](https://arxiv.org/abs/2405.19462) got accepted at ACL 2024.
 - **May** - Our work on [Leverage Class-Specific Accuracy to Guide Data Generation for Improving Image Classification](https://openreview.net/forum?id=KHymcy2xxF) is accepted at ICML 2024. Stay tuned for the camera-ready version!
 - **May** - Officially starting as a Research Associate II at MBZUAI.
 - **March** - Our new preprint [On the low-shot transferability of [V]-Mamba](https://arxiv.org/abs/2403.10696) is now out on arXiv.

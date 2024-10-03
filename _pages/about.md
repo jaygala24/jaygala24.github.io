@@ -29,34 +29,20 @@ I co-founded the research division of Unicode (a.k.a. [Unicode Research](https:/
 
 <hr>
 
-<h2 style="color:#003BDE; margin-bottom:0.5em">News and Timeline</h2>
+<h3 style="color:#003BDE; margin-bottom:0.5em">News and Timeline</h3>
 
-##### **2024**
-
-- **August** - Gave a talk on in-context learning capabilities of LLMs for MT ([slides](https://drive.google.com/file/d/1HCFpWcO6fUCwNnUfmtBXOSUCRaIaKrvx/view)) at the SNLP Reading Group, Microsoft Research India.
-- **August** - Our work [RomanSETU](https://arxiv.org/abs/2401.14280) received 🏆 Senior Area Chair Award at ACL 2024! Congratulations to all the authors!
-- **July** - Will be attending [ACL 2024](https://2024.aclweb.org/) in Bangkok 🇹🇭.
-- **May** - Our works - [RomanSETU](https://arxiv.org/abs/2401.14280), [ICL study for MT](https://arxiv.org/abs/2401.12097) and [Data Pruning for MT](https://arxiv.org/abs/2405.19462) got accepted at ACL 2024.
-- **May** - Our work on [Leverage Class-Specific Accuracy to Guide Data Generation for Improving Image Classification](https://openreview.net/forum?id=KHymcy2xxF) is accepted at ICML 2024. Stay tuned for the camera-ready version!
-- **May** - Officially starting as a Research Associate II at MBZUAI.
-- **March** - Our new preprint [On the low-shot transferability of [V]-Mamba](https://arxiv.org/abs/2403.10696) is now out on arXiv.
-- **January** - Excited to announce the release of Airavata, an instruction-tuned Hindi LLM. Check out the [Technical Report](https://arxiv.org/abs/2401.15006) and [Code](https://github.com/AI4Bharat/IndicInstruct). Also, our preprint on [ICL abilities in LLMs for MT](https://arxiv.org/abs/2401.12097) is available on arXiv.
-
-##### **2023**
-
-- **December** - Will be attending [EMNLP 2023](https://2023.emnlp.org/) in Singapore 🇸🇬.
-- **November** - IndicTrans2 submission has been accepted at TMLR. Check out the [Camera Ready Version](https://openreview.net/forum?id=vfT4YuzAYA).
-- **November** - Presenting tutorial on [Developing SOTA MNMT Systems for Related Languages](http://www.afnlp.org/conferences/ijcnlp2023/wp/program/accepted-tutorials/) at AACL-IJCNLP 2023.
-- **May** - Excited to share the release of IndicTrans2, first open-source model to support all 22 Scheduled Indian languages. Check out the [Preprint](https://arxiv.org/abs/2305.16307) and [Code](https://github.com/AI4Bharat/IndicTrans2).
-- **January** - A Federated Approach for Hate Speech Detection has been accepted to EACL 2023. Check out the [Preprint](https://arxiv.org/abs/2302.09243) and [Code](https://github.com/jaygala24/fed-hate-speech).
-
-##### **2022**
-
-- **September** - Officially starting as an AI resident at [AI4Bharat (IIT Madras)](https://ai4bharat.org/).
-- **July** - Attending the [Eastern European Machine Learning Summer School (EEML) 2022](https://www.eeml.eu/home).
-- **January** - Attending the [Advanced Language Processing Winter School (ALPS) 2022](https://lig-alps.imag.fr/).
-
-##### **2021**
-
-- **October** - Starting independent collaboration with [Zeerak Talat](https://zeerak.org/).
-- **June** - Officially starting as a research intern with [Pengtao Xie](https://sites.google.com/site/pengtaoxie2008) at UCSD.
+<div style="width:100%;overflow-y:scroll;height:250px;">
+  <ul id="news">
+    <li style="margin-bottom: 10px;"><strong>August 2024:</strong> Gave a talk on in-context learning capabilities of LLMs for MT (<a href="https://drive.google.com/file/d/1HCFpWcO6fUCwNnUfmtBXOSUCRaIaKrvx/view">slides</a>) at the SNLP Reading Group, Microsoft Research India.</li>
+    <li style="margin-bottom: 10px;"><strong>August 2024:</strong> Our work <a href="https://arxiv.org/abs/2401.14280">RomanSETU</a> received 🏆 Senior Area Chair Award at ACL 2024! Congratulations to all the authors!</li>
+    <li style="margin-bottom: 10px;"><strong>May 2024:</strong> Our works - <a href="https://arxiv.org/abs/2401.14280">RomanSETU</a>, <a href="https://arxiv.org/abs/2401.12097">ICL study for MT</a> and <a href="https://arxiv.org/abs/2405.19462">Data Pruning for MT</a> got accepted at ACL 2024.</li>
+    <li style="margin-bottom: 10px;"><strong>May 2024:</strong> Our work on <a href="https://openreview.net/forum?id=KHymcy2xxF">Leverage Class-Specific Accuracy to Guide Data Generation for Improving Image Classification</a> is accepted at ICML 2024. Stay tuned for the camera-ready version!</li>
+    <li style="margin-bottom: 10px;"><strong>March 2024:</strong> Our new preprint <a href="https://arxiv.org/abs/2403.10696">On the low-shot transferability of [V]-Mamba</a> is now out on arXiv.</li>
+    <li style="margin-bottom: 10px;"><strong>January 2024:</strong> Our preprint on <a href="https://arxiv.org/abs/2401.12097">ICL abilities in LLMs for MT</a> is available on arXiv.</li>
+    <li style="margin-bottom: 10px;"><strong>January 2024:</strong> Excited to announce the release of Airavata, an instruction-tuned Hindi LLM. Check out the <a href="https://arxiv.org/abs/2401.15006">Technical Report</a> and <a href="https://github.com/AI4Bharat/IndicInstruct">Code</a>.</li>
+    <li style="margin-bottom: 10px;"><strong>November 2023:</strong> IndicTrans2 submission has been accepted at TMLR. Check out the <a href="https://openreview.net/forum?id=vfT4YuzAYA">Camera Ready Version</a>.</li>
+    <li style="margin-bottom: 10px;"><strong>November 2023:</strong> Presenting tutorial on <a href="http://www.afnlp.org/conferences/ijcnlp2023/wp/program/accepted-tutorials/">Developing SOTA MNMT Systems for Related Languages</a> at AACL-IJCNLP 2023.</li>
+    <li style="margin-bottom: 10px;"><strong>May 2023:</strong> Excited to share the release of IndicTrans2, first open-source model to support all 22 Scheduled Indian languages. Check out the <a href="https://arxiv.org/abs/2305.16307">Preprint</a> and <a href="https://github.com/AI4Bharat/IndicTrans2">Code</a>.</li>
+    <li style="margin-bottom: 10px;"><strong>January 2023:</strong> A Federated Approach for Hate Speech Detection has been accepted to EACL 2023. Check out the <a href="https://arxiv.org/abs/2302.09243">Preprint</a> and <a href="https://github.com/jaygala24/fed-hate-speech">Code</a>.</li>
+  </ul>
+</div>

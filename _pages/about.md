@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span class="font-weight-bold">Research Associate</span> @ <a href="https://ai4bharat.org/" target="_blank">MBZUAI</a> • <span class="font-weight-bold">Previously:</span> <a href="https://ai4bharat.iitm.ac.in/" target="_blank">AI4Bharat</a> / <a href="https://ucsd.edu/" target="_blank">UCSD</a> / <a href="https://www.tcs.com/" target="_blank">TCS</a> / <a href="https://stratzy.in/" target="_blank">Stratzy</a>
+subtitle: <span class="font-weight-bold">Research MSc</span> @ Mila / McGill University
 
 profile:
   align: right

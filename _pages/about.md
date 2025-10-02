@@ -34,7 +34,6 @@ I co-founded the research division of Unicode (a.k.a. [Unicode Research](https:/
 <div style="width:100%;overflow-y:scroll;height:250px;">
   <ul id="news">
     <li style="margin-bottom: 10px;"><strong>August 2025:</strong> Our work <a href="https://arxiv.org/abs/2506.05439">LLMs Can Compensate for Deficiencies in Visual Representations</a> got accepted at EMNLP 2025.</li>
-    <li style="margin-bottom: 10px;"><strong>August 2025:</strong> Started</li>
     <li style="margin-bottom: 10px;"><strong>June 2025:</strong> Our preprint on <a href="https://arxiv.org/abs/2506.05439">LLMs Can Compensate for Deficiencies in Visual Representations</a> is now available on arXiv.</li>
     <li style="margin-bottom: 10px;"><strong>January 2025:</strong> Our work on <a href="https://openreview.net/forum?id=zl3pfz4VCV">MMTEB: Massive Multilingual Text Embedding Benchmark</a> is accepted to ICLR 2025.</li>
     <li style="margin-bottom: 10px;"><strong>August 2024:</strong> Gave a talk on in-context learning capabilities of LLMs for MT (<a href="https://drive.google.com/file/d/1HCFpWcO6fUCwNnUfmtBXOSUCRaIaKrvx/view">slides</a>) at the SNLP Reading Group, Microsoft Research India.</li>

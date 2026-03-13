@@ -7,9 +7,17 @@ nav: true
 nav_order: 2
 ---
 
+##### **2025**
+
+- LLMs Can Compensate for Deficiencies in Visual Representations ([Paper](https://aclanthology.org/2025.findings-emnlp.825/), [Slides](https://docs.google.com/presentation/d/1oHVxWmz6wm7c1yZuLQOFJMgEMwgvr_Xyf9mcgSmt7EI/view))
+  <br> **MBZUAI NLP Reading Group**
+
 ##### **2024**
 
-- An Empirical Study of In-context Learning in LLMs for Machine Translation  ([Slides](https://drive.google.com/file/d/1HCFpWcO6fUCwNnUfmtBXOSUCRaIaKrvx/view))
+- LLMs Know More Than They Show: On the Intrinsic Representation of LLM Hallucinations ([Paper](https://arxiv.org/abs/2410.02707), [Slides](https://docs.google.com/presentation/d/1EoXfRw4Z7nV4RX4aXZvpZTsZa7rD0wTH6acnI_vHYTQ/view))
+  <br> **MBZUAI NLP Reading Group**
+
+- An Empirical Study of In-context Learning in LLMs for Machine Translation ([Slides](https://drive.google.com/file/d/1HCFpWcO6fUCwNnUfmtBXOSUCRaIaKrvx/view))
   <br> **SNLP Reading Group @ Microsoft Research India**
 
 ##### **2023**

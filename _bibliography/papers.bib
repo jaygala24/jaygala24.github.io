@@ -1,14 +1,28 @@
 ---
 ---
 
-@article{takishita2025llms,
-  title    = {LLMs Can Compensate for Deficiencies in Visual Representations},
-  author   = {Sho Takishita* and Jay Gala* and Abdelrahman Mohamed and Kentaro Inui and Yova Kementchedjhieva},
-  year     = {2025},
-  journal  = {arXiv preprint},
-  abbr     = {arXiv},
-  abstract = {Many vision-language models (VLMs) that prove very effective at a range of multimodal task, build on CLIP-based vision encoders, which are known to have various limitations. We investigate the hypothesis that the strong language backbone in VLMs compensates for possibly weak visual features by contextualizing or enriching them. Using three CLIP-based VLMs, we perform controlled self-attention ablations on a carefully designed probing task. Our findings show that despite known limitations, CLIP visual representations offer ready-to-read semantic information to the language decoder. However, in scenarios of reduced contextualization in the visual representations, the language decoder can largely compensate for the deficiency and recover performance. This suggests a dynamic division of labor in VLMs and motivates future architectures that offload more visual processing to the language decoder.},
-  pdf      = {https://arxiv.org/pdf/2506.05439}
+@article{liu2026bridge,
+  title       = {{BRIDGE}: Predicting Human Task Completion Time From Model Performance},
+  author      = {Fengyuan Liu* and Jay Gala* and Nilaksh and Dzmitry Bahdanau and Siva Reddy and Hugo Larochelle},
+  year        = {2026},
+  journal     = {arXiv preprint},
+  abbr        = {arXiv},
+  abstract    = {Evaluating the real-world capabilities of AI systems requires grounding benchmark performance in human-interpretable measures of task difficulty. Existing approaches that rely on direct human task completion time annotations are costly, noisy, and difficult to scale across benchmarks. In this work, we propose BRIDGE, a unified psychometric framework that learns the latent difficulty scale from model responses and anchors it to human task completion time. Using a two-parameter logistic Item Response Theory model, we jointly estimate latent task difficulty and model capability from model performance data across multiple benchmarks. We demonstrate that latent task difficulty varies linearly with the logarithm of human completion time, allowing human task completion time to be inferred for new benchmarks from model performance alone. Leveraging this alignment, we forecast frontier model capabilities in terms of human task length and independently reproduce METR's exponential scaling results, with the 50% solvable task horizon doubling approximately every 6 months.},
+  pdf         = {https://arxiv.org/pdf/2602.07267},
+  code        = {https://github.com/McGill-NLP/BRIDGE},
+  website     = {https://mcgill-nlp.github.io/BRIDGE/}
+}
+
+@inproceedings{takishita2025llms,
+  title       = {LLMs Can Compensate for Deficiencies in Visual Representations},
+  author      = {Sho Takishita* and Jay Gala* and Abdelrahman Mohamed and Kentaro Inui and Yova Kementchedjhieva},
+  year        = {2025},
+  booktitle   = {Proceedings of the 2025 Annual Conference of the Empirical Methods in Natural Language Processing},
+  publisher   = {Association for Computational Linguistics},
+  abbr        = {EMNLP},
+  abstract    = {Many vision-language models (VLMs) that prove very effective at a range of multimodal task, build on CLIP-based vision encoders, which are known to have various limitations. We investigate the hypothesis that the strong language backbone in VLMs compensates for possibly weak visual features by contextualizing or enriching them. Using three CLIP-based VLMs, we perform controlled self-attention ablations on a carefully designed probing task. Our findings show that despite known limitations, CLIP visual representations offer ready-to-read semantic information to the language decoder. However, in scenarios of reduced contextualization in the visual representations, the language decoder can largely compensate for the deficiency and recover performance. This suggests a dynamic division of labor in VLMs and motivates future architectures that offload more visual processing to the language decoder.},
+  pdf         = {https://aclanthology.org/2025.findings-emnlp.825.pdf},
+  slides      = {https://docs.google.com/presentation/d/1oHVxWmz6wm7c1yZuLQOFJMgEMwgvr_Xyf9mcgSmt7EI/view}
 }
 
 @inproceedings{iclr2025mmteb,
@@ -25,11 +39,11 @@
   title       = {{SHADES}: Towards a Multilingual Assessment of Stereotypes in Large Language Models},
   author      = {Margaret Mitchell and Giuseppe Attanasio and Ioana Baldini and Miruna Clinciu and Jordan Clive and Pieter Delobelle and Manan Dey and Sil Hamilton and Timm Dill and Jad Doughman and Ritam Dutt and Avijit Ghosh and Jessica Zosa Forde and Carolin Holtermann and Lucie-Aimée Kaffee and Tanmay Laud and Anne Lauscher and Roberto L Lopez-Davila and Maraim Masoud and Nikita Nangia and Anaelia Ovalle and Giada Pistilli and Dragomir Radev and Beatrice Savoldi and Vipul Raheja and Jeremy Qin and Esther Ploeger and Arjun Subramonian and Kaustubh Dhole and Kaiser Sun and Amirbek Djanibekov and Jonibek Mansurov and Kayo Yin and Emilio Villa Cueva and Sagnik Mukherjee and Jerry Huang and Xudong Shen and Jay Gala and Hamdan Al-Ali and Tair Djanibekov and Nurdaulet Mukhituly and Shangrui Nie and Shanya Sharma and Karolina Stanczak and Eliza Szczechla and Tiago Timponi Torrent and Deepak Tunuguntla and Marcelo Viridiano and Oskar van der Wal and Adina Yakefu and Aurélie Névéol and Mike Zhang and Sydney Zink and Zeerak Talat},
   year        = 2025,
-  booktitle   = {The 2025 Annual Conference of the Nations of the Americas Chapter of the ACL},
+  booktitle   = {Proceedings of the 2025 Annual Conference of the Nations of the Americas Chapter of the ACL},
   publisher   = {Association for Computational Linguistics},
   abbr        = {NAACL},
   abstract    = {Large Language Models (LLMs) reproduce and exacerbate the social biases present in their training data, and resources to quantify this issue are limited. While research has attempted to identify and mitigate such biases, most efforts have been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. In this paper, we introduce a new multilingual parallel dataset SHADES to help address this issue, designed for examining culturally-specific stereotypes that may be learned by LLMs. The dataset includes stereotypes from 20 regions around the world and 16 languages, spanning multiple identity categories subject to discrimination worldwide. We demonstrate its utility in a series of exploratory evaluations for both “base” and “instruction-tuned” language models. Our results suggest that stereotypes are consistently reflected across models and languages, with some languages and models indicating much stronger stereotype biases than others.},
-  pdf         = {https://openreview.net/pdf/0d1fdf3262a780b479a206a5a103f8b6f87a5c96.pdf}
+  pdf         = {https://aclanthology.org/2025.naacl-long.600.pdf}
 }
 
 @inproceedings{gala2024leverage,
@@ -86,7 +100,7 @@
   booktitle   = {Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
   abbr        = {NeurIPS},
   abstract    = {Visual Question Answering (VQA) is an important task in multimodal AI, and it is often used to test the ability of vision-language models to understand and reason on knowledge present in both visual and textual data. However, most of the current VQA models use datasets that are primarily focused on English and a few major world languages, with images that are typically Western-centric. While recent efforts have tried to increase the number of languages covered on VQA datasets, they still lack diversity in low-resource languages. More importantly, although these datasets often extend their linguistic range via translation or some other approaches, they usually keep images the same, resulting in narrow cultural representation. To address these limitations, we construct CVQA, a new Culturally-diverse multilingual Visual Question Answering benchmark, designed to cover a rich set of languages and cultures, where we engage native speakers and cultural experts in the data collection process. As a result, CVQA includes culturally-driven images and questions from across 28 countries on four continents, covering 26 languages with 11 scripts, providing a total of 9k questions. We then benchmark several Multimodal Large Language Models (MLLMs) on CVQA, and show that the dataset is challenging for the current state-of-the-art models. This benchmark can serve as a probing evaluation suite for assessing the cultural capability and bias of multimodal models and hopefully encourage more research efforts toward increasing cultural awareness and linguistic diversity in this field.},
-  pdf         = {http://arxiv.org/pdf/2406.05967},
+  pdf         = {https://arxiv.org/pdf/2406.05967},
   website     = {https://cvqa-benchmark.org/}
 }
 
@@ -97,7 +111,7 @@
   journal     = {arXiv preprint},
   abbr        = {arXiv},
   abstract    = {We announce the initial release of Airavata, an instruction-tuned LLM for Hindi. Airavata was created by fine-tuning OpenHathi with diverse, instruction-tuning Hindi datasets to make it better suited for assistive tasks. Along with the model, we also share the IndicInstruct dataset, which is a collection of diverse instruction-tuning datasets to enable further research for Indic LLMs. Additionally, we present evaluation benchmarks and a framework for assessing LLM performance across tasks in Hindi. Currently, Airavata supports Hindi, but we plan to expand this to all 22 scheduled Indic languages. You can access all artifacts at https://ai4bharat.github.io/airavata.},
-  pdf         = {http://arxiv.org/pdf/2401.15006},
+  pdf         = {https://arxiv.org/pdf/2401.15006},
   website     = {https://ai4bharat.github.io/airavata},
   code        = {https://github.com/AI4Bharat/IndicInstruct}
 }
@@ -109,7 +123,7 @@
   journal     = {arXiv preprint},
   abbr        = {arXiv},
   abstract    = {The strength of modern large-scale neural networks lies in their ability to efficiently adapt to new tasks with few examples. Although extensive research has investigated the transferability of Vision Transformers (ViTs) to various downstream tasks under diverse constraints, this study shifts focus to explore the transfer learning potential of [V]-Mamba. We compare its performance with ViTs across different few-shot data budgets and efficient transfer methods. Our analysis yields three key insights into [V]-Mamba's few-shot transfer performance: (a) [V]-Mamba demonstrates superior or equivalent few-shot learning capabilities compared to ViTs when utilizing linear probing (LP) for transfer, (b) Conversely, [V]-Mamba exhibits weaker or similar few-shot learning performance compared to ViTs when employing visual prompting (VP) as the transfer method, and (c) We observe a weak positive correlation between the performance gap in transfer via LP and VP and the scale of the [V]-Mamba model. This preliminary analysis lays the foundation for more comprehensive studies aimed at furthering our understanding of the capabilities of [V]-Mamba variants and their distinctions from ViTs.},
-  pdf         = {http://arxiv.org/pdf/2403.10696}
+  pdf         = {https://arxiv.org/pdf/2403.10696}
 }
 
 @inproceedings{dabre2023wmt,
@@ -143,7 +157,7 @@
   publisher   = {Association for Computational Linguistics},
   abbr        = {EACL},
   abstract    = {Hate speech detection has been the subject of high research attention, due to the scale of content created on social media. In spite of the attention and the sensitive nature of the task, privacy preservation in hate speech detection has remained under-studied. The majority of research has focused on centralised machine learning infrastructures which risk leaking data. In this paper, we show that using federated machine learning can help address privacy the concerns that are inehrent to hate speech detection while obtaining up to 6.81% improvement in terms of F1-score.},
-  pdf         = {http://arxiv.org/pdf/2302.09243},
+  pdf         = {https://arxiv.org/pdf/2302.09243},
   code        = {https://github.com/jaygala24/fed-hate-speech},
   slides      = {https://docs.google.com/presentation/d/1eiL5uLRt9-Bg9oKBWu9BzslksFFJKtkKXS8coI7__pM/edit?usp=sharing},
   talk        = {https://drive.google.com/file/d/1kO_CJEvnr6SiyiLg9TQfO21FuFZYcR6g/view?usp=sharing}

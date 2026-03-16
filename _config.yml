@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Jay Gala # the website title (if blank, full name will be used instead)
 first_name: Jay
 middle_name: 
 last_name: Gala
-email: jaygala24@gmail.com
+email: jay.gala@mila.quebec
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A personal website to showcase the research and development along with the blogs.
+  Jay Gala — MSc researcher at Mila / McGill University working on data-efficient learning, training dynamics, reasoning, and NLP.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -58,9 +58,9 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: prof_pic.jpeg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -93,7 +93,7 @@ facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  Feel free to reach out me via twitter, linkedin or email.
+  Feel free to reach out to me via Twitter, LinkedIn, or email.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

@@ -4,7 +4,7 @@ https://www.samclarke.com/assets/migrating-to-hugo/github.html
 */
 
 code[class*="language-"], pre[class*="language-"] {
-  color: #333;
+  color: var(--global-text-color);
   background: none;
   font-family: "Inconsolata", monospace;
   text-align: left;
@@ -27,9 +27,9 @@ code[class*="language-"], pre[class*="language-"] {
 pre[class*="language-"] {
   padding: .8em;
   overflow: auto;
-  border: 1px solid #ddd;
+  border: 1px solid var(--global-divider-color);
   border-radius: 3px;
-  background: #fff;
+  background: var(--global-code-bg-color);
 }
 
 /* Inline code */
@@ -38,7 +38,7 @@ pre[class*="language-"] {
   padding: .1em;
   border-radius: .3em;
   white-space: normal;
-  background: #f5f5f5;
+  background: var(--global-code-bg-color);
 }
 
 .token.comment, .token.blockquote {
@@ -160,4 +160,109 @@ code.language-yaml {
 
 .language-bash .token.keyword {
   color: #0086b3;
+}
+
+/* Dark mode overrides */
+
+html[data-theme='dark'] {
+  code[class*="language-"], pre[class*="language-"] {
+    color: #f8f8f2;
+  }
+
+  .token.comment, .token.blockquote {
+    color: #75715e;
+  }
+
+  .token.cdata {
+    color: #66d9ef;
+  }
+
+  .token.doctype, .token.punctuation, .token.variable, .token.macro.property {
+    color: #f8f8f2;
+  }
+
+  .token.operator, .token.important, .token.keyword, .token.rule, .token.builtin {
+    color: #f92672;
+  }
+
+  .token.string, .token.url, .token.regex, .token.attr-value {
+    color: #e6db74;
+  }
+
+  .token.property, .token.number, .token.boolean, .token.entity,
+  .token.atrule, .token.constant, .token.symbol, .token.command, .token.code {
+    color: #66d9ef;
+  }
+
+  .token.tag, .token.selector, .token.prolog {
+    color: #a6e22e;
+  }
+
+  .token.function, .token.namespace, .token.pseudo-element, .token.class,
+  .token.class-name, .token.pseudo-class, .token.id,
+  .token.url-reference .token.variable, .token.attr-name {
+    color: #ae81ff;
+  }
+
+  .token.title, .token.title .token.punctuation {
+    color: #66d9ef;
+  }
+
+  .token.list {
+    color: #fd971f;
+  }
+
+  .token.inserted {
+    background-color: #1a3a1a;
+    color: #a6e22e;
+  }
+
+  .token.deleted {
+    background-color: #3a1a1a;
+    color: #f92672;
+  }
+
+  .language-json .token.property {
+    color: #66d9ef;
+  }
+
+  .language-markup .token.tag .token.punctuation {
+    color: #f8f8f2;
+  }
+
+  code.language-css, .language-css .token.function {
+    color: #66d9ef;
+  }
+
+  .language-yaml .token.atrule {
+    color: #a6e22e;
+  }
+
+  code.language-yaml {
+    color: #e6db74;
+  }
+
+  .language-ruby .token.function {
+    color: #f8f8f2;
+  }
+
+  .language-markdown .token.url {
+    color: #ae81ff;
+  }
+
+  .language-makefile .token.symbol {
+    color: #ae81ff;
+  }
+
+  .language-makefile .token.variable {
+    color: #e6db74;
+  }
+
+  .language-makefile .token.builtin {
+    color: #66d9ef;
+  }
+
+  .language-bash .token.keyword {
+    color: #66d9ef;
+  }
 }

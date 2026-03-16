@@ -62,4 +62,13 @@ html[data-theme='dark'] {
   .repo-img-dark {
     display: block;
   }
+
+  // MathJax dark mode fix
+  mjx-container {
+    color: var(--global-text-color);
+
+    svg {
+      fill: var(--global-text-color);
+    }
+  }
 }

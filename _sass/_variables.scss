@@ -3,14 +3,15 @@
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
 
+@use "sass:color";
 
 // Colors
 $purple-color:        #003bde !default;
-$light-purple-color:  lighten($purple-color, 25%);
+$light-purple-color:  color.adjust($purple-color, $lightness: 25%);
 $gold-color:          #d4a017 !default;
 
 $grey-color:          #828282 !default;
-$grey-color-light:    lighten($grey-color, 40%);
+$grey-color-light:    color.adjust($grey-color, $lightness: 40%);
 $grey-color-dark:     #1C1C1D;
 $grey-900:            #212529;
 
@@ -22,3 +23,8 @@ $black-color: #000000 !default;
 
 $code-bg-color-light:     rgba($purple-color, 0.05);
 $code-bg-color-dark:      #2c3237 !default;
+
+
+// Layout
+
+$max-content-width: 800px !default;

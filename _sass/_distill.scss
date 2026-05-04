@@ -1,7 +1,7 @@
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/
-@import "code_highlighting";
+@use "code_highlighting";
 
 d-byline {
   border-top-color: var(--global-divider-color) !important;

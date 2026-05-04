@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+description: ''
 subtitle: <span class="font-weight-bold">Research MSc</span> @ Mila / McGill University
 
 profile:
@@ -21,26 +22,3 @@ Previously, I was a Research Associate at [MBZUAI](https://mbzuai.ac.ae/) workin
 
 I hold a Bachelor’s degree in Computer Engineering from the [University of Mumbai](https://www.djsce.ac.in/), India. Outside research, I served as a mentor at [DJ Unicode](https://www.djunicode.in/), where I also led a team that built a platform for conducting C programming examinations for over 500 students ([demo](https://www.youtube.com/watch?v=kn7lwJoYfuU)). I co-founded [Unicode Research](https://unicode-research.netlify.app/people/) with [Swapneel Mehta](https://mehtaver.se/), served as a TA for the [Unicode ML Summer Course 2021](https://djunicode.github.io/umlsc-2021/) supported by **Google Research India**, and was a founding research engineer at [SimPPL](https://simppl.org/), where I collaborated with The Sunday Times and Ippen Digital to build a tool for auditing online disinformation.
 
-<hr>
-
-<h3 style="color:#003BDE; margin-bottom:0.5em">News and Timeline</h3>
-
-<div style="width:100%;overflow-y:scroll;height:250px;">
-  <ul id="news">
-    <li style="margin-bottom: 10px;"><strong>January 2026:</strong> Our preprint on <a href="https://arxiv.org/abs/2602.07267">BRIDGE: Predicting Human Task Completion Time From Model Performance</a> is now available on arXiv.</li>
-    <li style="margin-bottom: 10px;"><strong>August 2025:</strong> Our work <a href="https://arxiv.org/abs/2506.05439">LLMs Can Compensate for Deficiencies in Visual Representations</a> got accepted at EMNLP 2025.</li>
-    <li style="margin-bottom: 10px;"><strong>June 2025:</strong> Our preprint on <a href="https://arxiv.org/abs/2506.05439">LLMs Can Compensate for Deficiencies in Visual Representations</a> is now available on arXiv.</li>
-    <li style="margin-bottom: 10px;"><strong>January 2025:</strong> Our work on <a href="https://openreview.net/forum?id=zl3pfz4VCV">MMTEB: Massive Multilingual Text Embedding Benchmark</a> is accepted to ICLR 2025.</li>
-    <li style="margin-bottom: 10px;"><strong>August 2024:</strong> Gave a talk on in-context learning capabilities of LLMs for MT (<a href="https://drive.google.com/file/d/1HCFpWcO6fUCwNnUfmtBXOSUCRaIaKrvx/view">slides</a>) at the SNLP Reading Group, Microsoft Research India.</li>
-    <li style="margin-bottom: 10px;"><strong>August 2024:</strong> Our work <a href="https://arxiv.org/abs/2401.14280">RomanSETU</a> received 🏆 Senior Area Chair Award at ACL 2024! Congratulations to all the authors!</li>
-    <li style="margin-bottom: 10px;"><strong>May 2024:</strong> Our works - <a href="https://arxiv.org/abs/2401.14280">RomanSETU</a>, <a href="https://arxiv.org/abs/2401.12097">ICL study for MT</a> and <a href="https://arxiv.org/abs/2405.19462">Data Pruning for MT</a> got accepted at ACL 2024.</li>
-    <li style="margin-bottom: 10px;"><strong>May 2024:</strong> Our work on <a href="https://openreview.net/forum?id=KHymcy2xxF">Leverage Class-Specific Accuracy to Guide Data Generation for Improving Image Classification</a> is accepted at ICML 2024. Stay tuned for the camera-ready version!</li>
-    <li style="margin-bottom: 10px;"><strong>March 2024:</strong> Our new preprint <a href="https://arxiv.org/abs/2403.10696">On the low-shot transferability of [V]-Mamba</a> is now out on arXiv.</li>
-    <li style="margin-bottom: 10px;"><strong>January 2024:</strong> Our preprint on <a href="https://arxiv.org/abs/2401.12097">ICL abilities in LLMs for MT</a> is available on arXiv.</li>
-    <li style="margin-bottom: 10px;"><strong>January 2024:</strong> Excited to announce the release of Airavata, an instruction-tuned Hindi LLM. Check out the <a href="https://arxiv.org/abs/2401.15006">Technical Report</a> and <a href="https://github.com/AI4Bharat/IndicInstruct">Code</a>.</li>
-    <li style="margin-bottom: 10px;"><strong>November 2023:</strong> IndicTrans2 submission has been accepted at TMLR. Check out the <a href="https://openreview.net/forum?id=vfT4YuzAYA">Camera Ready Version</a>.</li>
-    <li style="margin-bottom: 10px;"><strong>November 2023:</strong> Presenting tutorial on <a href="http://www.afnlp.org/conferences/ijcnlp2023/wp/program/accepted-tutorials/">Developing SOTA MNMT Systems for Related Languages</a> at AACL-IJCNLP 2023.</li>
-    <li style="margin-bottom: 10px;"><strong>May 2023:</strong> Excited to share the release of IndicTrans2, first open-source model to support all 22 Scheduled Indian languages. Check out the <a href="https://arxiv.org/abs/2305.16307">Preprint</a> and <a href="https://github.com/AI4Bharat/IndicTrans2">Code</a>.</li>
-    <li style="margin-bottom: 10px;"><strong>January 2023:</strong> A Federated Approach for Hate Speech Detection has been accepted to EACL 2023. Check out the <a href="https://arxiv.org/abs/2302.09243">Preprint</a> and <a href="https://github.com/jaygala24/fed-hate-speech">Code</a>.</li>
-  </ul>
-</div>

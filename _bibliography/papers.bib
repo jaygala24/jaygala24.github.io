@@ -7,6 +7,7 @@
   year        = {2026},
   journal     = {arXiv preprint},
   abbr        = {arXiv},
+  venue       = {ArXiv Preprint},
   abstract    = {Evaluating the real-world capabilities of AI systems requires grounding benchmark performance in human-interpretable measures of task difficulty. Existing approaches that rely on direct human task completion time annotations are costly, noisy, and difficult to scale across benchmarks. In this work, we propose BRIDGE, a unified psychometric framework that learns the latent difficulty scale from model responses and anchors it to human task completion time. Using a two-parameter logistic Item Response Theory model, we jointly estimate latent task difficulty and model capability from model performance data across multiple benchmarks. We demonstrate that latent task difficulty varies linearly with the logarithm of human completion time, allowing human task completion time to be inferred for new benchmarks from model performance alone. Leveraging this alignment, we forecast frontier model capabilities in terms of human task length and independently reproduce METR's exponential scaling results, with the 50% solvable task horizon doubling approximately every 6 months.},
   pdf         = {https://arxiv.org/pdf/2602.07267},
   code        = {https://github.com/McGill-NLP/BRIDGE},
@@ -20,6 +21,7 @@
   booktitle   = {Proceedings of the 2025 Annual Conference of the Empirical Methods in Natural Language Processing},
   publisher   = {Association for Computational Linguistics},
   abbr        = {EMNLP},
+  venue       = {Findings of the Empirical Methods in Natural Language Processing},
   abstract    = {Many vision-language models (VLMs) that prove very effective at a range of multimodal task, build on CLIP-based vision encoders, which are known to have various limitations. We investigate the hypothesis that the strong language backbone in VLMs compensates for possibly weak visual features by contextualizing or enriching them. Using three CLIP-based VLMs, we perform controlled self-attention ablations on a carefully designed probing task. Our findings show that despite known limitations, CLIP visual representations offer ready-to-read semantic information to the language decoder. However, in scenarios of reduced contextualization in the visual representations, the language decoder can largely compensate for the deficiency and recover performance. This suggests a dynamic division of labor in VLMs and motivates future architectures that offload more visual processing to the language decoder.},
   pdf         = {https://aclanthology.org/2025.findings-emnlp.825.pdf},
   slides      = {https://docs.google.com/presentation/d/1oHVxWmz6wm7c1yZuLQOFJMgEMwgvr_Xyf9mcgSmt7EI/view}
@@ -31,6 +33,7 @@
   year        = 2025,
   booktitle   = {Thirteenth International Conference on Learning Representations},
   abbr        = {ICLR},
+  venue       = {International Conference on Learning Representations},
   abstract    = {Text embeddings are typically evaluated on a narrow set of tasks, limited in terms of languages, domains, and task types. To circumvent this limitation and to provide a more comprehensive evaluation, we introduce the Massive Multilingual Text Embedding Benchmark (MMTEB) -- a large-scale community-driven initiative expanding MTEB to over 500 \textit{quality controlled} evaluation tasks across 1,000+ languages. MMTEB includes a wide range of challenging novel tasks such as instruction following, long-document retrieval, and code retrieval, and represents the largest multilingual collection of evaluation tasks for embedding models to date. We use this collection to construct multiple highly multilingual benchmarks. We evaluate a representative set of models on these benchmarks. Our findings indicate that, while LLM-based models can achieve state-of-the-art performance on a subset of languages, the best-performing publicly available model across languages is the notably smaller, multilingual-e5-large-instruct. Massive benchmarks often impose high computational demands, limiting accessibility, particularly for low-resource communities. To address this, we downsample tasks based on inter-task correlation (i.e., selecting only a diverse set of tasks) while preserving relative rankings. We further optimize tasks such as retrieval by sampling hard negatives, creating smaller but effective splits. These optimizations allow us to introduce benchmarks at a significantly lower computational cost. For instance, we introduce a new zero-shot English benchmark that maintains a similar ordering at a fraction of the cost.},
   pdf         = {https://openreview.net/pdf?id=zl3pfz4VCV}
 }
@@ -42,6 +45,7 @@
   booktitle   = {Proceedings of the 2025 Annual Conference of the Nations of the Americas Chapter of the ACL},
   publisher   = {Association for Computational Linguistics},
   abbr        = {NAACL},
+  venue       = {North American Chapter of the Association for Computational Linguistics},
   abstract    = {Large Language Models (LLMs) reproduce and exacerbate the social biases present in their training data, and resources to quantify this issue are limited. While research has attempted to identify and mitigate such biases, most efforts have been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. In this paper, we introduce a new multilingual parallel dataset SHADES to help address this issue, designed for examining culturally-specific stereotypes that may be learned by LLMs. The dataset includes stereotypes from 20 regions around the world and 16 languages, spanning multiple identity categories subject to discrimination worldwide. We demonstrate its utility in a series of exploratory evaluations for both “base” and “instruction-tuned” language models. Our results suggest that stereotypes are consistently reflected across models and languages, with some languages and models indicating much stronger stereotype biases than others.},
   pdf         = {https://aclanthology.org/2025.naacl-long.600.pdf}
 }
@@ -52,6 +56,7 @@
   year        = 2024,
   booktitle   = {Forty-first International Conference on Machine Learning},
   abbr        = {ICML},
+  venue       = {International Conference on Machine Learning},
   abstract    = {In many image classification applications, the number of labeled training images is limited, which leads to model overfitting. To mitigate the lack of training data, deep generative models have been leveraged to generate synthetic training data. However, existing methods generate data for individual classes based on how much training data they have without considering their actual data needs. To address this limitation, we propose needs-aware image generation, which automatically identifies the different data needs of individual classes based on their classification performance and divides a limited data generation budget into these classes according to their needs. We propose a multi-level optimization based framework which performs four learning stages in an end-to-end manner. Experiments on both imbalanced and balanced classification datasets demonstrate the effectiveness of our proposed method.},
   pdf         = {https://openreview.net/pdf?id=KHymcy2xxF},
   slides      = {https://docs.google.com/presentation/d/1KkI9tkO7HobXQ-HO9obSPYBOXyiKd5DaVvvCsX-NAFU/edit?usp=sharing},
@@ -65,6 +70,7 @@
   booktitle   = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
   publisher   = {Association for Computational Linguistics},
   abbr        = {ACL Findings},
+  venue       = {Findings of the Annual Meeting of the Association for Computational Linguistics},
   abstract    = {Neural Machine Translation models are extremely data and compute-hungry. However, not all data points contribute equally to model training and generalization. Data pruning to remove the low-value data points has the benefit of drastically reducing the compute budget without significant drop in model performance. In this paper, we propose a new data pruning technique: Checkpoints Across Time (CAT), that leverages early model training dynamics to identify the most relevant data points for model performance. We benchmark CAT against several data pruning techniques including COMET-QE, LASER and LaBSE. We find that CAT outperforms the benchmarks on Indo-European languages on multiple test sets. When applied to English-German, English-French and English-Swahili translation tasks, CAT achieves comparable performance to using the full dataset, while pruning up to 50% of training data. We inspect the data points that CAT selects and find that it tends to favour longer sentences and sentences with unique or rare words.},
   pdf         = {https://aclanthology.org/2024.findings-acl.560.pdf}
 }
@@ -76,6 +82,7 @@
   booktitle   = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
   publisher   = {Association for Computational Linguistics},
   abbr        = {ACL Findings},
+  venue       = {Findings of the Annual Meeting of the Association for Computational Linguistics},
   abstract    = {Recent interest has surged in employing Large Language Models (LLMs) for machine translation (MT) via in-context learning (ICL) (Vilar et al., 2023). Most prior studies primarily focus on optimizing translation quality, with limited attention to understanding the specific aspects of ICL that influence the said quality. To this end, we perform the first of its kind, an exhaustive study of in-context learning for machine translation. We first establish that ICL is primarily example-driven and not instruction-driven. Following this, we conduct an extensive exploration of various aspects of the examples to understand their influence on downstream performance. Our analysis includes factors such as quality and quantity of demonstrations, spatial proximity, and source versus target originality. Further, we also investigate challenging scenarios involving indirectness and misalignment of examples to understand the limits of ICL. While we establish the significance of the quality of the target distribution over the source distribution of demonstrations, we further observe that perturbations sometimes act as regularizers, resulting in performance improvements. Surprisingly, ICL does not necessitate examples from the same task, and a related task with the same target distribution proves sufficient. We hope that our study acts as a guiding resource for considerations in utilizing ICL for MT.},
   pdf         = {https://aclanthology.org/2024.findings-acl.440.pdf},
   slides      = {https://docs.google.com/presentation/d/1ufJZ0qkC8mBUnBQm1w1T-7YgPPgYGK_KlaJCkbzcXd0/edit?usp=sharing},
@@ -89,6 +96,7 @@
   booktitle   = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
   publisher   = {Association for Computational Linguistics},
   abbr        = {ACL},
+  venue       = {Annual Meeting of the Association for Computational Linguistics},
   abstract    = {This study addresses the challenge of extending Large Language Models (LLMs) to non-English languages, specifically those using non-Roman scripts. We propose an approach that utilizes the romanized form of text as an interface for LLMs, hypothesizing that its frequent informal use and shared tokens with English enhance cross-lingual alignment. Our approach involves the continual pretraining of an English LLM like Llama 2 on romanized text of non-English, non-Roman script languages, followed by instruction tuning on romanized data. The results indicate that romanized text not only reduces token fertility by 2x-4x but also matches if not outperforms native script representation across various NLU, NLG, and MT tasks. Moreover, the embeddings computed on romanized text exhibit closer alignment with their English translations than those from the native script. Our approach presents a promising direction for leveraging the power of English LLMs in languages traditionally underrepresented in NLP research.},
   pdf         = {https://aclanthology.org/2024.acl-long.833.pdf},
   award       = {Senior Area Chair Award}
@@ -100,6 +108,7 @@
   year        = 2024,
   booktitle   = {Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
   abbr        = {NeurIPS},
+  venue       = {Neural Information Processing Systems Datasets \& Benchmarks Track},
   abstract    = {Visual Question Answering (VQA) is an important task in multimodal AI, and it is often used to test the ability of vision-language models to understand and reason on knowledge present in both visual and textual data. However, most of the current VQA models use datasets that are primarily focused on English and a few major world languages, with images that are typically Western-centric. While recent efforts have tried to increase the number of languages covered on VQA datasets, they still lack diversity in low-resource languages. More importantly, although these datasets often extend their linguistic range via translation or some other approaches, they usually keep images the same, resulting in narrow cultural representation. To address these limitations, we construct CVQA, a new Culturally-diverse multilingual Visual Question Answering benchmark, designed to cover a rich set of languages and cultures, where we engage native speakers and cultural experts in the data collection process. As a result, CVQA includes culturally-driven images and questions from across 28 countries on four continents, covering 26 languages with 11 scripts, providing a total of 9k questions. We then benchmark several Multimodal Large Language Models (MLLMs) on CVQA, and show that the dataset is challenging for the current state-of-the-art models. This benchmark can serve as a probing evaluation suite for assessing the cultural capability and bias of multimodal models and hopefully encourage more research efforts toward increasing cultural awareness and linguistic diversity in this field.},
   pdf         = {https://arxiv.org/pdf/2406.05967},
   website     = {https://cvqa-benchmark.org/}
@@ -111,6 +120,7 @@
   year        = 2024,
   journal     = {arXiv preprint},
   abbr        = {arXiv},
+  venue       = {ArXiv Preprint},
   abstract    = {We announce the initial release of Airavata, an instruction-tuned LLM for Hindi. Airavata was created by fine-tuning OpenHathi with diverse, instruction-tuning Hindi datasets to make it better suited for assistive tasks. Along with the model, we also share the IndicInstruct dataset, which is a collection of diverse instruction-tuning datasets to enable further research for Indic LLMs. Additionally, we present evaluation benchmarks and a framework for assessing LLM performance across tasks in Hindi. Currently, Airavata supports Hindi, but we plan to expand this to all 22 scheduled Indic languages. You can access all artifacts at https://ai4bharat.github.io/airavata.},
   pdf         = {https://arxiv.org/pdf/2401.15006},
   website     = {https://ai4bharat.github.io/airavata},
@@ -123,6 +133,7 @@
   year        = 2024,
   journal     = {arXiv preprint},
   abbr        = {arXiv},
+  venue       = {ArXiv Preprint},
   abstract    = {The strength of modern large-scale neural networks lies in their ability to efficiently adapt to new tasks with few examples. Although extensive research has investigated the transferability of Vision Transformers (ViTs) to various downstream tasks under diverse constraints, this study shifts focus to explore the transfer learning potential of [V]-Mamba. We compare its performance with ViTs across different few-shot data budgets and efficient transfer methods. Our analysis yields three key insights into [V]-Mamba's few-shot transfer performance: (a) [V]-Mamba demonstrates superior or equivalent few-shot learning capabilities compared to ViTs when utilizing linear probing (LP) for transfer, (b) Conversely, [V]-Mamba exhibits weaker or similar few-shot learning performance compared to ViTs when employing visual prompting (VP) as the transfer method, and (c) We observe a weak positive correlation between the performance gap in transfer via LP and VP and the scale of the [V]-Mamba model. This preliminary analysis lays the foundation for more comprehensive studies aimed at furthering our understanding of the capabilities of [V]-Mamba variants and their distinctions from ViTs.},
   pdf         = {https://arxiv.org/pdf/2403.10696}
 }
@@ -134,6 +145,7 @@
   booktitle   = {Proceedings of the Eighth Conference on Machine Translation},
   publisher   = {Association for Computational Linguistics},
   abbr        = {WMT},
+  venue       = {Conference on Machine Translation},
   abstract    = {In this paper, we (Team NICT-AI4B) describe our MT systems that we submit to the Indic MT task in WMT 2023. Our primary system consists of 3 stages: Joint denoising and MT training using officially approved monolingual and parallel corpora, backtranslation and, MT training on original and backtranslated parallel corpora. We observe that backtranslation leads to substantial improvements in translation quality up to 4 BLEU points. We also develop 2 contrastive systems on unconstrained settings, where the first system involves fine-tuning of IndicTrans2 DA models on official parallel corpora and seed data used in AI4Bharat et al, (2023), and the second system involves a system combination of the primary and the aforementioned system. Overall, we manage to obtain high-quality translation systems for the 4 low-resource North-East Indian languages of focus.},
   pdf         = {https://aclanthology.org/2023.wmt-1.88.pdf}
 }
@@ -145,6 +157,7 @@
   journal     = {Transactions on Machine Learning Research},
   issn        = {2835-8865},
   abbr        = {TMLR},
+  venue       = {Transactions on Machine Learning Research},
   abstract    = {India has a rich linguistic landscape with languages from 4 major language families spoken by over a billion people. 22 of these languages are listed in the Constitution of India (referred to as scheduled languages) are the focus of this work. Given the linguistic diversity, high-quality and accessible Machine Translation (MT) systems are essential in a country like India. Prior to this work, there was (i) no parallel training data spanning all the 22 languages, (ii) no robust benchmarks covering all these languages and containing content relevant to India, and (iii) no existing translation models which support all the 22 scheduled languages of India. In this work, we aim to address this gap by focusing on the missing pieces required for enabling wide, easy, and open access to good machine translation systems for all 22 scheduled Indian languages. We identify four key areas of improvement: curating and creating larger training datasets, creating diverse and high-quality benchmarks, training multilingual models, and releasing models with open access. Our first contribution is the release of the Bharat Parallel Corpus Collection (BPCC), the largest publicly available parallel corpora for Indic languages. BPCC contains a total of 230M bitext pairs, of which a total of 126M were newly added, including 644K manually translated sentence pairs created as part of this work. Our second contribution is the release of the first n-way parallel benchmark covering all 22 Indian languages, featuring diverse domains, Indian-origin content, and source-original test sets. Next, we present IndicTrans2, the first model to support all 22 languages, surpassing existing models on multiple existing and new benchmarks created as a part of this work. Lastly, to promote accessibility and collaboration, we release our models and associated data with permissive licenses at https://github.com/ai4bharat/indictrans2.},
   code        = {https://github.com/ai4bharat/indictrans2},
   pdf         = {https://openreview.net/pdf?id=vfT4YuzAYA}
@@ -157,6 +170,7 @@
   booktitle   = {Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics},
   publisher   = {Association for Computational Linguistics},
   abbr        = {EACL},
+  venue       = {European Chapter of the Association for Computational Linguistics},
   abstract    = {Hate speech detection has been the subject of high research attention, due to the scale of content created on social media. In spite of the attention and the sensitive nature of the task, privacy preservation in hate speech detection has remained under-studied. The majority of research has focused on centralised machine learning infrastructures which risk leaking data. In this paper, we show that using federated machine learning can help address privacy the concerns that are inehrent to hate speech detection while obtaining up to 6.81% improvement in terms of F1-score.},
   pdf         = {https://arxiv.org/pdf/2302.09243},
   code        = {https://github.com/jaygala24/fed-hate-speech},
@@ -170,6 +184,7 @@
   year        = 2022,
   booktitle   = {Workshop on Broadening Research Collaborations (NeurIPS)},
   abbr        = {NeurIPS},
+  venue       = {Workshop on Broadening Research Collaborations at Neural Information Processing Systems},
   abstract    = {We present a model of a student-led community of researchers to highlight the impact of pursuing collaborative machine learning research on the group’s members individually as well as towards achieving shared goals. We provide concrete examples of the guiding principles that led to the evolution of the collaborative from a reading group into a research group and eventually launching a non-profit software product to help non-technical stakeholders leverage artificial intelligence (AI), improving access to advanced technologies, and promoting open science. Our goal is to lay out a template to launch similar small-scale collaborative organisations at different institutes around the world.},
   pdf         = {https://openreview.net/pdf?id=YBk2jG7MEaX}
 }
@@ -180,6 +195,7 @@
   year        = 2021,
   booktitle   = {5th International Conference on Advances in Computing and Data Sciences},
   abbr        = {Springer},
+  venue       = {International Conference on Advances in Computing and Data Sciences},
   abstract    = {Machines cannot outperform human intelligence yet; however, an image-based dialog can enable machines to perceive cues from different modalities and process information in a more human-like manner. The proposed solution is an AI-based agent that can have engaging conversations with humans by considering an image and answering questions about its visual content, taking into account both visual and textual context. Deep learning-based techniques like Recurrent Neural Networks (RNNs) with self-attention mechanisms have been employed. Responses generated by such models, in some cases, are more biased towards dialog history and are not very relevant to the actual question asked. The proposed work focuses on reducing the modality biases without compromising dialog history and improving the visual context through the use of dense captions to describe various entities in the image and generate relevant answers.},
   code        = {https://github.com/jaygala24/pytorch-visual-dialog},
   html        = {https://link.springer.com/chapter/10.1007/978-3-030-88244-0_4}
@@ -193,6 +209,7 @@
   publisher   = {Elsevier},
   pages       = {55--73},
   abbr        = {Elsevier},
+  venue       = {Cyber-Physical Systems: AI and COVID-19 (Elsevier)},
   abstract    = {COVID-19 has become a global crisis. During such a time of adversity, it has become difficult to create safe working conditions for people resulting in a lack of workforce for performing a multitude of tasks. As a result, there is a requirement for “next-gen” autonomous systems to perform various tasks. One of the reasons why humans are efficient in doing a lot of tasks is the ability to detect and distinguish between various objects around them and proceed with doing the intended task further. Object detection methods are designed to replicate this human behavior and can be used in various applications that serve to aid in the COVID-19 crisis. Object detection deals with identifying objects belonging to a predefined class in the image. This chapter aims at explaining the most commonly used methods like region-based convolutional neural network and You Only Look Once of object detection along with a few of its applications.},
   html        = {https://www.sciencedirect.com/science/article/pii/B9780128245576000078}
 }
@@ -205,6 +222,7 @@
   publisher   = {IEEE},
   pages       = {1--6},
   abbr        = {IVCNZ},
+  venue       = {International Conference on Image and Vision Computing New Zealand},
   abstract    = {The world is advancing towards an autonomous environment at a great pace and it has become a need of an hour, especially during the current pandemic situation. The pandemic has hindered the functioning of many sectors, one of them being Road development and maintenance. Creating a safe working environment for workers is a major concern of road maintenance during such difficult times. This can be achieved to some extent with the help of an autonomous system that will aim at reducing human dependency. In this paper, one of such systems, a pothole detection and dimension estimation, is proposed. The proposed system uses a Deep Learning based algorithm YOLO (You Only Look Once) for pothole detection. Further, an image processing based triangular similarity measure is used for pothole dimension estimation. The proposed system provides reasonably accurate results of both pothole detection and dimension estimation. The proposed system also helps in reducing the time required for road maintenance. The system uses a custom made dataset consisting of images of water-logged and dry potholes of various shapes and sizes.},
   code        = {https://github.com/jaygala24/pothole-detection},
   html        = {https://ieeexplore.ieee.org/abstract/document/9290547/}
@@ -218,6 +236,7 @@
   publisher   = {IEEE},
   pages       = {315--321},
   abbr        = {IEEE},
+  venue       = {International Conference on Smart Systems and Inventive Technology},
   abstract    = {There is always a significant amount of challenges associated with waste and its disposal, which can be essentially mitigated by the use of technology. As the urban population increases, the amount of waste disposal is also increasing at an unprecedented rate. The inappropriate disposal of this waste will lead to many hazards including the risk of fires in the dump yards that leverages poisonous smoke in the atmosphere by adversely affecting the safety of nearby residential areas. Monitoring the occurrence of fire in huge dumping grounds manually is a tough task and thus developing an automatic fire extinguishing system is highly required. The advanced technologies can be leveraged to ensure the protection and safety of people by eliminating such hazardous risks. The air quality index (AQI) is an indicator of daily air quality report that shows how air quality affects a person's life in a very short time. AQI plays a key role in ensuring the safety of residential areas. The proposed system aims to aid the possible hazardous risks associated with the dump yard and waste management.},
   html        = {https://ieeexplore.ieee.org/abstract/document/9214202}
 }
@@ -230,6 +249,7 @@
   publisher   = {IEEE},
   pages       = {1--5},
   abbr        = {IEEE},
+  venue       = {International Conference on Computing, Communication and Networking Technologies},
   abstract    = {There are a plethora of problems associated with agriculture and farming which require considerable improvements but remain untouched by technology. Farming is considered as one of the strong pillars of any economy. Considering this, very few technologies exist to aid the farmers in selecting the right crops depending on the environmental factors. Moreover most irrigation systems all around the world require at least some form of human intervention. Considering this, the proposed smart farming solution aims to aid the farmers by means of technology so as to increase their yield by suggesting to them the crops that will be most profitable for them as well as automating the irrigation system for them. This in turn will be a major help to the agriculture community as a whole and also set free the farmers from certain rudimentary tasks.},
   html        = {https://ieeexplore.ieee.org/abstract/document/9225686}
 }

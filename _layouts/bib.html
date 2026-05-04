@@ -94,7 +94,9 @@
 
     <!-- Venue -->
     <p class="pub-venue">
-      {% if entry.type == "article" -%}
+      {% if entry.venue -%}
+        {{entry.venue}}
+      {%- elsif entry.type == "article" -%}
         {{entry.journal}}
       {%- elsif entry.type == "inproceedings" or entry.type == "incollection" -%}
         In {{entry.booktitle}}
@@ -115,7 +117,7 @@
   <div class="pub-buttons">
   {%- if entry.abbr %}
     {%- if site.data.venues[entry.abbr] -%}
-      <a href="{{site.data.venues[entry.abbr].url}}" class="pub-btn pub-btn-venue" {% if site.data.venues[entry.abbr].color %}style="background-color:{{site.data.venues[entry.abbr].color}}"{% endif %}>{{entry.abbr}}</a>
+      <a href="{{site.data.venues[entry.abbr].url}}" class="pub-btn pub-btn-venue">{{entry.abbr}}</a>
     {%- else -%}
       <span class="pub-btn pub-btn-venue">{{entry.abbr}}</span>
     {%- endif -%}

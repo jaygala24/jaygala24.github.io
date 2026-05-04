@@ -17,8 +17,8 @@ nav_order: 3
       <h3 class="pub-title">Teaching assistant for COMP 345: From Natural Language to Data Science</h3>
       <p class="pub-venue">McGill University</p>
       <div class="pub-buttons">
-        <span class="pub-btn pub-btn-type" style="background-color:#6c757d;">TA</span>
-        <a href="https://mcgill-nlp.github.io/teaching/comp345-ling345-W26/" class="pub-btn pub-btn-website">Website</a>
+        <span class="pub-btn pub-btn-type">TA</span>
+        <a href="https://mcgill-nlp.github.io/teaching/comp345-ling345-W26/" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn-website">Website</a>
       </div>
     </div>
   </li>
@@ -33,8 +33,8 @@ nav_order: 3
       <p class="pub-venue">DJ Unicode</p>
       <div class="pub-award">&#x1F3C6; Supported by Google Research India</div>
       <div class="pub-buttons">
-        <span class="pub-btn pub-btn-type" style="background-color:#6c757d;">TA</span>
-        <a href="https://djunicode.github.io/umlsc-2021/" class="pub-btn pub-btn-website">Website</a>
+        <span class="pub-btn pub-btn-type">TA</span>
+        <a href="https://djunicode.github.io/umlsc-2021/" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn-website">Website</a>
       </div>
     </div>
   </li>
@@ -48,7 +48,7 @@ nav_order: 3
       <h3 class="pub-title">Introduction to Web Development</h3>
       <p class="pub-venue">DJ Unicode</p>
       <div class="pub-buttons">
-        <span class="pub-btn pub-btn-type" style="background-color:#6c757d;">Workshop</span>
+        <span class="pub-btn pub-btn-type">Workshop</span>
       </div>
     </div>
   </li>
